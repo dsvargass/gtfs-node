@@ -3,9 +3,9 @@ const COLOR_GREEN = "\x1b[32m%s\x1b[0m";
 let client = null;
 const connect = async () => {
     // Connection URL
-    const userDB = "emv";
-    const passDB = "emv%40mongodb123%25%25!"
-    const ipDB = "db.emvtech.com.br";
+    const userDB = "";
+    const passDB = ""
+    const ipDB = "";
     const port = "27017";
     const url = `mongodb://${userDB}:${passDB}@${ipDB}:${port}/?authMechanism=DEFAULT`;
     client = new MongoClient(url);
